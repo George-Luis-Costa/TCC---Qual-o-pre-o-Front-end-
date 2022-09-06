@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B0C0C;
+    min-height: 100vh;
+
+}
+
+img {
+    margin-top: 5%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+}
+
+.tela-login {
+    width: 420px;
+    height: 420px;
+    position: absolute;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(95, 95, 95, 0.1);
+    border-radius: 20px;
+}
+
+div h1 {
+    background-color: grey;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.input-login {
+    position: absolute;
+    padding: 10px 15px;
+    width: 320px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#senha{
+    margin-top: 10px;
+}
+
+button {
+    position: absolute;
+    left: 260px;
+    width: 75px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    transform: translate(50%);
+}
+button:hover{
+    background-color: rgb(79, 27, 126);
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: rgb(95, 95, 95);
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    bottom: 0;
+}
+
+footer p {
+    margin-top: 5px;
+    position: absolute;
+    left: 20%;
+    color: aliceblue;
+    text-shadow: 2px 2px #0B0C0C;
+}
+
+.button-signUp {
+    margin: 0;
+    left: 45%;
+}
