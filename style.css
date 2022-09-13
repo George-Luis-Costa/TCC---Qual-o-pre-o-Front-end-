@@ -70,7 +70,7 @@ img {
 .inputs_cadastro {
     position: relative;
     top: 50%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
 }
 
 .input-login {
@@ -82,7 +82,7 @@ img {
     font-size: 15px;
 }
 
-.input-cadastro{
+.input-cadastro {
     position: relative;
     width: 250px;
     border-radius: 20px;
@@ -95,7 +95,7 @@ img {
     margin-top: 10px;
 }
 
-button {
+.button_default {
     position: absolute;
     left: 260px;
     width: 75px;
@@ -103,6 +103,17 @@ button {
     border-radius: 20px;
     padding: 5px;
     transform: translate(50%);
+    box-shadow: 10px 5px 5px black;
+}
+
+.attach_button {
+    position: relative;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    transform: translate(50%, -50%);
+    top: 50%;
+    box-shadow: 10px 5px 5px black;
 }
 
 button:hover {
@@ -129,10 +140,22 @@ footer p {
     color: aliceblue;
     text-shadow: 2px 2px #0B0C0C;
 }
-.anexar_cadastro{
+
+.anexar_cadastro {
     top: 110%;
 }
+
 .button-signUp {
     margin: 0;
     left: 45%;
+}
+
+.create_account{
+    position: relative;
+    top: 60%;
+    padding: 5px;
+    color: rgb(79, 27, 126);
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
 }
