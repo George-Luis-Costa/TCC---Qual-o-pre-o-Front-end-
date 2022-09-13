@@ -29,7 +29,7 @@ img {
     border-radius: 20px;
 }
 
-div h1 {
+.titulo_login {
     background-color: grey;
     color: aliceblue;
     text-align: center;
