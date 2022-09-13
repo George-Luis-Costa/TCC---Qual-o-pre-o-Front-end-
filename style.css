@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,13 @@
 body {
     background: #0B0C0C;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
 
+.labels_label--format {
+    position: absolute;
+    text-align: center;
+    left: 11%;
 }
 
 img {
@@ -15,6 +23,18 @@ img {
     left: 50%;
     position: relative;
     transform: translate(-50%);
+}
+
+.tela-cadastro {
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(95, 95, 95, 0.1);
+    border-radius: 20px;
 }
 
 .tela-login {
@@ -29,11 +49,28 @@ img {
     border-radius: 20px;
 }
 
-.titulo_login {
+.titulo_login,
+.titulo_cadastro {
     background-color: grey;
     color: aliceblue;
     text-align: center;
     border-radius: 20px;
+}
+
+.formulario {
+    position: relative;
+    left: 0%;
+    background-color: grey;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.inputs_cadastro {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
 }
 
 .input-login {
@@ -45,7 +82,16 @@ img {
     font-size: 15px;
 }
 
-#senha{
+.input-cadastro{
+    position: relative;
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 5px;
+
+}
+
+#senha {
     margin-top: 10px;
 }
 
@@ -58,7 +104,8 @@ button {
     padding: 5px;
     transform: translate(50%);
 }
-button:hover{
+
+button:hover {
     background-color: rgb(79, 27, 126);
     cursor: pointer;
 }
@@ -82,7 +129,9 @@ footer p {
     color: aliceblue;
     text-shadow: 2px 2px #0B0C0C;
 }
-
+.anexar_cadastro{
+    top: 110%;
+}
 .button-signUp {
     margin: 0;
     left: 45%;
