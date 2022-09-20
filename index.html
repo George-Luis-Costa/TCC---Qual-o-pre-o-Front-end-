@@ -7,8 +7,9 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  
   <body>
-    <div class="tela-login">
+    <div class="tela-box">
       <h1 class="titulo_login">Bem - Vindo</h1>
       <img
         class="imagem"
@@ -18,7 +19,7 @@
         height="64px"
         />
       <br /><br />
-      <form action="./index.html">
+      <section>
         <input
           class="input-login"
           id="email"
@@ -37,13 +38,12 @@
           required
           />
         <br /><br />
-        <a href="/Screens/main.html"><button class="button_default" type="submit">LOG IN</button></a>
-      </form>
-
-      <footer>
+        <a href="./Screens/main.html"><button class="button button_default transitionBg">LOG IN</button></a>
+      </section>
+      <footer class="footer_index--sign">
         <p>Não registrado?</p>
-        <a href="/Screens/cadastro.html">
-          <button class="button_default button-signUp">SIGN UP</button>
+        <a href="./Screens/cadastro.html">
+          <button class="button button_default button-signUp transitionBg">SIGN UP</button>
         </a>
       </footer>
     </div>

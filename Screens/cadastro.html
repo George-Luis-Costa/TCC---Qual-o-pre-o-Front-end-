@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/TCC---Qual-o-pre-o-Front-end-/style.css" />
   </head>
+
   <body>
-    <div class="tela-cadastro">
+    <div class="tela-box" style="height: 600px">
       <h1 class="titulo_cadastro">SIGN UP</h1>
       <br><br>
 
@@ -45,14 +46,20 @@
 
         <footer class="anexar_cadastro">
           <figure>
-            <img src="/images/perfil.png" alt="Perfil" width="70px"
+            <img src="/TCC---Qual-o-pre-o-Front-end-/images/perfil.png"
+              alt="Perfil" width="70px"
               height="70px">
           </figure>
-          <button class="attach_button">Anexar imagem</button>
+
+          <label for="input_avatar" class="button transitionBg">Selecione a Foto de Perfil</label>
+          <input type="file" id="input_avatar" name="input_avatar" accept="image/png, image/jpeg"><br><br>
         </footer>
 
         <div class="create_account">
-          <a href="/index.html" onsubmit=""><h1>Criar Conta</h1></a>
+          <a href="/TCC---Qual-o-pre-o-Front-end-/index.html">Voltar</a>
+          
+          <input type="submit" value="Criar Conta" 
+          class="button_submit button_bg transitionBg"></input>
         </div>
 
       </form>

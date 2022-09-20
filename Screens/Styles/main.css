@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B0C0C;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tela-box {
+    width: 420px;
+    height: 420px;
+    position: absolute;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(95, 95, 95, 0.1);
+    border-radius: 20px;
+}
+
+.conteiner_main{
+    background-color: aliceblue;
+}
