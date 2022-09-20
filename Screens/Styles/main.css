@@ -24,6 +24,10 @@ body {
     border-radius: 20px;
 }
 
-.conteiner_main{
+.conteiner_sources{
     background-color: aliceblue;
+    color: #0B0C0C;
+}
+.footer_main{
+    position: relative;
 }
