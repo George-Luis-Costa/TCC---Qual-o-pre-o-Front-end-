@@ -25,10 +25,7 @@ body {
 }
 
 .conteiner_sources {
-    /* background-color: aliceblue;
-    color: #0B0C0C; */
     font-size: small;
-
 }
 
 .footer_main {
@@ -37,6 +34,21 @@ body {
     color: #0B0C0C;
     position: relative;
     font-size: 8px;
+}
+.section_div--information {
+    font-size: smaller;
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.section_div--access {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px 30px;
+    box-shadow: 10px 5px 5px black;
 }
 
 /*Link não visitado */
@@ -63,14 +75,3 @@ a:active {
     text-decoration: none;
 }
 
-.section_div--information {
-    font-size: smaller;
-    display: flex;
-    background-color: blueviolet;
-}
-
-.section_div--access {
-    background-color: aliceblue;
-    padding: 5px 30px;  
-    border-radius: 15%;
-}
