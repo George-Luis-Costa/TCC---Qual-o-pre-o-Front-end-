@@ -24,10 +24,46 @@ body {
     border-radius: 20px;
 }
 
-.conteiner_sources{
+.conteiner_sources {
     background-color: aliceblue;
     color: #0B0C0C;
+    font-size: small;
+
 }
-.footer_main{
+
+.footer_main {
     position: relative;
+    background-color: aliceblue;
+    color: #0B0C0C;
+    position: relative;
+    font-size: 8px;
+}
+
+/*Link não visitado */
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+/*Link já visitado*/
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/*Quando o mouse passa por cima*/
+a:hover {
+    color: rgb(79, 27, 126);
+    text-decoration: none;
+}
+
+/*Link ativo/selecionado*/
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+.section_div--information {
+    font-size: smaller;
+    display: flex;
 }

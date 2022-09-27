@@ -51,15 +51,18 @@
               height="70px">
           </figure>
 
-          <label for="input_avatar" class="button transitionBg">Selecione a Foto de Perfil</label>
-          <input type="file" id="input_avatar" name="input_avatar" accept="image/png, image/jpeg"><br><br>
+          <label for="input_avatar" class="button transitionBg" title="Adicione algum arquivo de imagem (png ou jpeg)">Selecione a Foto de Perfil</label>
+          <input type="file" id="input_avatar" 
+          name="input_avatar" accept="image/png, image/jpeg" ><br><br>
         </footer>
 
         <div class="create_account">
-          <a href="/index.html">Voltar</a>
+          <a href="/index.html" title="Voltar para o menu anterior" class="cadastro_link--submit">Voltar</a>
           
           <input type="submit" value="Criar Conta" 
-          class="button_submit button_bg transitionBg"></input>
+          class="button_submit button_bg transitionBg input_submit--criarConta" 
+          title="Ao clicar seus dados serão enviados">
+          </input>
         </div>
 
       </form>
