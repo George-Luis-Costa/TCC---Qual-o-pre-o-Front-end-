@@ -25,6 +25,7 @@ body {
 }
 
 .conteiner_sources {
+    position: relative;
     font-size: small;
 }
 
@@ -35,20 +36,39 @@ body {
     position: relative;
     font-size: 8px;
 }
-.section_div--information {
+
+.section__div__information {
     font-size: smaller;
-    display: flex;
     background-color: blueviolet;
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 15px 20px;
     box-shadow: 10px 5px 5px black;
 }
 
-.section_div--access {
+.section__div__access {
     background-color: aliceblue;
     border-radius: 20px;
-    padding: 5px 30px;
+    padding: 20px 30px;
     box-shadow: 10px 5px 5px black;
+}
+
+.section__div__view {
+    display: flex;
+    justify-content: space-between;       
+}
+
+.section__information--align-header {
+    display: flex;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+}
+.section__information--align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__view--align {
+    display: flex;
 }
 
 /*Link não visitado */
@@ -74,4 +94,3 @@ a:active {
     color: yellow;
     text-decoration: none;
 }
-
