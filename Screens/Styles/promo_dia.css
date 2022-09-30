@@ -85,3 +85,19 @@ input#search-bar {
     top: -62px;
     right: -10px;
 }
+
+.transitionBg {
+    transition: background-color 500ms, transform 500ms;
+}
+
+.button_bg:hover{
+    background-color: rgb(79, 27, 126);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(79, 27, 126);
+    cursor: pointer;
+    transform: scale(1.2);
+    transform: translate(50%, -30%);
+}

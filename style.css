@@ -94,10 +94,6 @@ img {
     box-shadow: 10px 5px 5px black;
 }
 
-.transitionBg {
-    transition: background-color 500ms, transform 500ms;
-}
-
 .attach_button {
     position: relative;
     border-radius: 20px;
@@ -106,6 +102,10 @@ img {
     transform: translate(50%, -50%);
     top: 50%;
     box-shadow: 10px 5px 5px black;
+}
+
+.transitionBg {
+    transition: background-color 500ms, transform 500ms;
 }
 
 .button_bg:hover{
