@@ -19,9 +19,43 @@
 .titulo_main {
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
-.a {
+.tela-box__h1 {
+    display: inline-block;
+    background-color: #D7D7D7;
+    padding: 3px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px black;
+}
+
+.tela-box__div--format {
     background-color: aliceblue;
-    
+    padding: 5px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 7px 5px 5px black;
+}
+
+.tela-box__p--format {}
+
+.button-next {
+    background: #0B0C0C;
+    color: white;
+    border-style: outset;
+    height: 35px;
+    width: 80px;
+    font: bold15px arial, sans-serif;
+    text-shadow: none;
+    border-radius: 20px;
+    box-shadow: 7px 5px 5px black;
+}
+
+.tela-box__button {
+    display: flex;
+    justify-content: flex-end;
 }
